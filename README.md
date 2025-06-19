@@ -76,6 +76,7 @@ Também aprendi a:
 
 ### ✅ 3. Configurações Básicas
 
+
 | Campo                        | O que preencher                                      |
 |----------------------------- |--------------------------------------------------- |
 | **Assinatura (Subscription)** | Azure for Students (ou sua assinatura gratuita)    |
@@ -86,8 +87,14 @@ Também aprendi a:
 | **Tamanho (Size)**           | Selecione uma máquina gratuita (Exemplo: B1s ou menor) |
 | **Nome de Usuário**          | Crie o nome de usuário para acesso remoto           |
 | **Senha**                    | Crie uma senha forte para o acesso                  |
+| **Availability Options**     | Escolha: `No infrastructure redundancy required`    |
 
 ---
+
+![Configuração Básica](./Temp/1.PNG)
+
+
+![Revisão e Criação](./Temp/2.PNG)
 
 ### ✅ 4. Configuração de Acesso (Portas)
 
