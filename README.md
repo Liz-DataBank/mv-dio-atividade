@@ -59,7 +59,71 @@ Também aprendi a:
 
 ---
 
+## 🧑‍💻 Tutorial: Como Criar uma Máquina Virtual na Azure Passo a Passo
 
+### ✅ 1. Acessar o Portal da Azure
+
+👉 Link: [https://portal.azure.com](https://portal.azure.com)
+
+---
+
+### ✅ 2. Criar uma nova Máquina Virtual
+
+- No painel inicial, clique em **"Máquinas Virtuais"** no menu lateral esquerdo.
+- Depois clique em **"Criar" > "Máquina Virtual"**.
+
+---
+
+### ✅ 3. Configurações Básicas
+
+| Campo                        | O que preencher                                      |
+|----------------------------- |--------------------------------------------------- |
+| **Assinatura (Subscription)** | Azure for Students (ou sua assinatura gratuita)    |
+| **Grupo de Recursos (Resource Group)** | Crie um novo, ex: `LabDIO-VM`                  |
+| **Nome da Máquina Virtual (Virtual Machine Name)** | Exemplo: `vm-dio-lab`          |
+| **Região (Region)**          | Escolha: `Brazil South` (ou a região mais próxima de você) |
+| **Imagem (Image)**           | Exemplo: `Windows Server 2019 Datacenter` (ou outra de sua preferência) |
+| **Tamanho (Size)**           | Selecione uma máquina gratuita (Exemplo: B1s ou menor) |
+| **Nome de Usuário**          | Crie o nome de usuário para acesso remoto           |
+| **Senha**                    | Crie uma senha forte para o acesso                  |
+
+---
+
+### ✅ 4. Configuração de Acesso (Portas)
+
+- Em **Regras de porta de entrada pública**, habilite a porta **RDP (3389)** para permitir acesso remoto.
+
+---
+
+### ✅ 5. Revisar e Criar
+
+- Clique em **"Revisar + criar"**.
+- Revise todos os detalhes da configuração.
+- Clique em **"Criar"** para iniciar a implantação da sua VM.
+
+---
+
+### ✅ 6. Aguardar a Criação
+
+- Espere de **1 a 3 minutos** até a VM ser provisionada.
+
+---
+
+### ✅ 7. Conectar-se à VM
+
+- No painel da VM criada, clique em **"Conectar" > "RDP"**.
+- Faça o download do arquivo `.rdp`.
+- Abra o arquivo no seu computador.
+- Insira o **nome de usuário** e a **senha** que você definiu.
+
+---
+
+### ✅ 8. Finalizando
+
+⚠️ Importante:  
+Quando terminar de usar sua VM, não esqueça de **Parar (Stop)** ou **Excluir (Delete)** a VM para evitar consumo de créditos.
+
+---
 
 ## 📝 Conclusão
 
@@ -77,4 +141,3 @@ Agora me sinto mais preparada para utilizar VMs em projetos reais de desenvolvim
 ---
 
 > ✅ Repositório criado para o desafio final da DIO.
-
